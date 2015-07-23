@@ -90,13 +90,37 @@ h1 {
 .content-footer .social{
   font-size: 1.5em}
 
-@media screen and (max-width: 600px){
+@media  (max-width: 600px){
   .content-footer .social li{
   font-size: 4em;
   color: yellow;
   background-color: green;
   }
 }
+
+
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{  .content-footer .social li{
+  font-size: 4em;
+  color: yellow;
+  background-color: green;
+  }}
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{ .content-footer .social li{
+  font-size: 4em;
+  color: yellow;
+  background-color: green;
+  } }
 
 
 
